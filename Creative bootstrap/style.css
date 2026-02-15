@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+
+
+}
+
+
+
+ul {
+
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.abc {
+    border-bottom: 1px solid black;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+ul>li a:hover {
+    color: blue !important;
+    text-decoration: underline;
+
+
+
+}
+
+/* this is the first section */
+
+.first-section {
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+
+.btn-first {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* this is the cards section containing the cards  */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.card-body h5 {
+    color: blue;
+
+
+
+
+}
+
+.second {
+    text-align: center;
+
+}
+
+/* this is the third part of the section */
+
+.card-contain {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.xyz {
+    text-align: center;
+
+}
+
+.card {
+    background-color: whitesmoke;
+
+
+}
+
+.third {
+    background-color: whitesmoke;
+
+
+
+
+}
+
+/* this is the forth section */
+
+
+.fourth {
+    text-align: center;
+
+
+
+}
+
+.fourth>h2 {
+    color: blue;
+
+
+
+}
+
+/* this is the fivth section */
+
+.fivth {
+    background-color: whitesmoke;
+
+
+
+}
+
+.fivth-container-1,
+.fivth-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+
+
+.card-fivth {
+    width: 30%;
+
+
+}
+
+.fivth h2 {
+    text-align: center;
+
+}
+
+/* this is the sixth section */
+
+.sixth {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+
+
+ol li {
+
+    list-style: disc inside;
+
+
+}
+
+.sixth-card {
+    width: 16%;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 240px;
+
+}
+
+.sixth-card>img {
+    width: 100%;
+    object-fit: cover;
+    background-color: gray;
+
+}
+
+
+/* this is the media query section */
+
+@media screen and (max-width:768px) {
+    body {
+
+        margin: 0;
+        padding: 10px;
+
+    }
+
+    .abc {
+        border-bottom: 1px solid black;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+    }
+
+
+    ul>li a:hover {
+        color: blue !important;
+        text-decoration: underline;
+
+
+
+    }
+
+    /* this is the first section */
+
+    .first-section {
+        text-align: center;
+        background-color: whitesmoke;
+
+    }
+
+
+    .btn-first {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+
+    /* this is the cards section containing the cards  */
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        /* justify-content: center;
+    gap: 10px; */
+
+
+    }
+
+    .card-body h5 {
+        color: blue;
+
+
+
+
+    }
+
+    .second {
+        text-align: center;
+
+    }
+
+    /* this is the third part of the section */
+
+    .card-contain {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .xyz {
+        text-align: center;
+
+    }
+
+    .card {
+        background-color: whitesmoke;
+
+
+    }
+
+    .third {
+        background-color: whitesmoke;
+
+
+
+
+    }
+
+    /* this is the forth section */
+
+
+    .fourth {
+        text-align: center;
+
+
+
+    }
+
+    .fourth>h2 {
+        color: blue;
+
+
+
+    }
+
+
+    /* this is the fivth section */
+
+
+    .fivth {
+        background-color: whitesmoke;
+
+
+
+    }
+
+    .fivth-container-1,
+    .fivth-container-2 {
+        display: flex !important;
+        flex-direction: column !important;
+
+        /* justify-content: center; */
+
+
+
+    }
+
+
+    .card-fivth {
+        width: 100%;
+
+
+    }
+
+    .fivth h2 {
+        text-align: center;
+
+    }
+
+
+
+
+
+
+    /* this is the sixth section  */
+
+    .sixth {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        /* justify-content: center; */
+
+
+    }
+
+
+
+    ol li {
+
+        list-style: disc inside;
+
+
+    }
+
+    .sixth-card {
+        width: 100%;
+        text-align: center;
+        background-color: blue;
+        color: white;
+        height: 240px;
+
+    }
+
+    .sixth-card>img {
+        width: 100%;
+        object-fit: cover;
+        background-color: gray;
+
+    }
+
+
+
+
+}
