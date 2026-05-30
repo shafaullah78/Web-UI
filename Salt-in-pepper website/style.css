@@ -1,130 +1,194 @@
+.navbar {
 
-.navbar{
     display: flex;
+
     align-items: center;
-background-color: black;
-color: white;
-position: sticky;
-top: 0;
+
+    background-color: black;
+
+    color: white;
+
+    position: sticky;
+
+    top: 0;
 
 }
 
-.navbar img{
-width: 20%;
+
+.navbar img {
+
+    width: 20%;
 
 }
 
 
 ul {
-width: 70%;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
 
-ul>li>a{
-color: white !important;
+    width: 70%;
 
-}
+    display: flex;
 
+    justify-content: space-between;
 
-ul>li>div{
-background-color: red;
-padding: 10px;
-border-radius: 10px;
+    align-items: center;
+
 }
 
 
-.header{
-width: 100%;
-background-color: black;
-padding: 10px;
+ul>li>a {
+
+    color: white !important;
+
 }
+
+
+ul>li>div {
+
+    background-color: red;
+
+    padding: 10px;
+
+    border-radius: 10px;
+
+}
+
+
+.header {
+
+    width: 100%;
+
+    background-color: black;
+
+    padding: 10px;
+
+}
+
 
 /* this is the card section */
 
-.cards-sec h2{
-text-align: center;
-color: white;
-}
-.cards-sec{
-background-color: black;
+.cards-sec h2 {
 
+    text-align: center;
+
+    color: white;
 
 }
 
-.card-container{
+
+.cards-sec {
+
+    background-color: black;
+
+}
+
+
+.card-container {
 
     display: flex;
-justify-content: center;
-gap: 10px;
+
+    justify-content: center;
+
+    gap: 10px;
 
 }
 
 
-.card{
-width: 14%;
-background-color: black;
+.card {
+
+    width: 14%;
+
+    background-color: black;
 
 }
 
-.card img{
-height: 300px;
-object-fit: cover;
+
+.card img {
+
+    height: 300px;
+
+    object-fit: cover;
 
 }
 
-.card h5{
-color: white;
-text-align: center;
+
+.card h5 {
+
+    color: white;
+
+    text-align: center;
+
 }
 
 
 /* this is third section  */
-.third-section{
-display: flex;
 
+.third-section {
 
-}
-
-.third{
-width: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: rgba(0, 0, 0, 0.9);
-}
-
-.third img{
-width: 100%;
-object-fit: cover;
-
-}
-.third-right{
-width: 60%;
-color: white;
-
+    display: flex;
 
 }
 
-.third-right h4{
-color: red;
-font-size: 20px;
-letter-spacing: 5px;
+
+.third {
+
+    width: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.9);
 
 }
 
-.third-right button{
-padding: 10px;
-color: white;
-background-color: rgba(0, 0, 0, 0.9);
-border-radius: 20px;
 
-i{
-color: white;
+.third img {
 
+    width: 100%;
+
+    object-fit: cover;
 
 }
+
+
+.third-right {
+
+    width: 60%;
+
+    color: white;
+
+}
+
+
+.third-right h4 {
+
+    color: red;
+
+    font-size: 20px;
+
+    letter-spacing: 5px;
+
+}
+
+
+.third-right button {
+
+    padding: 10px;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    border-radius: 20px;
+
+
+    i {
+
+        color: white;
+
+    }
 
 
 }
@@ -132,377 +196,490 @@ color: white;
 
 /* this is the fivth section */
 
-.fivth{
-text-align: center;
-background-color: black;
-color: white;
+.fivth {
 
+    text-align: center;
 
-}
+    background-color: black;
 
-.fivth-card{
-width: 25%;
-text-align: center;
-
-}
-.fivth-card h5{
-background-color: red;
-margin: 0px 170px;
+    color: white;
 
 }
 
-.fivth-card img{
+
+.fivth-card {
+
+    width: 25%;
+
+    text-align: center;
+
+}
+
+
+.fivth-card h5 {
+
+    background-color: red;
+
+    margin: 0px 170px;
+
+}
+
+
+.fivth-card img {
+
     width: 100%;
-object-fit: cover;
 
+    object-fit: cover;
+
+}
+
+
+.uper-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    align-items: center;
 
 }
 
 
-.uper-section{
-display: flex;
-justify-content: center;
-gap: 20px;
-align-items: center;
+.lower-section {
 
-}
+    display: flex;
 
-.lower-section{
-display: flex;
-justify-content: center;
-gap: 20px;
-align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+
+    align-items: center;
+
 }
 
 
 /* this is the sixth section */
 
+.sixth {
 
-.sixth{
-display: flex;
-justify-content: space-around;
-align-items: center;
-background-color: rgba(0, 0, 0, 0.9);
-color: white;
-}
+    display: flex;
 
+    justify-content: space-around;
 
-.sixth-left{
-width: 40%;
+    align-items: center;
 
+    background-color: rgba(0, 0, 0, 0.9);
+
+    color: white;
 
 }
 
-.sixth-left h4{
-color: red;
-letter-spacing: 10px;
 
+.sixth-left {
 
-}
-
-.sixth-right{
-width: 40%;
-
+    width: 40%;
 
 }
 
-.sixth-right>img{
-width: 100%;
-object-fit: cover;
 
+.sixth-left h4 {
+
+    color: red;
+
+    letter-spacing: 10px;
 
 }
+
+
+.sixth-right {
+
+    width: 40%;
+
+}
+
+
+.sixth-right>img {
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
 
 /* this is the footer section */
 
-.footer{
-display: flex;
-justify-content: space-evenly;
-align-items: flex-start;
-background-color: rgba(0, 0, 0, 0.9);
-color: white;
-padding-top: 40px;
+.footer {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    align-items: flex-start;
+
+    background-color: rgba(0, 0, 0, 0.9);
+
+    color: white;
+
+    padding-top: 40px;
 
 }
 
-.footer h5{
-font-size: 15px;
 
+.footer h5 {
+
+    font-size: 15px;
 
 }
 
 
-.empty{
-width: 100%;
-background-color: black;
-padding: 50px;
+.empty {
+
+    width: 100%;
+
+    background-color: black;
+
+    padding: 50px;
 
 }
 
 
 /* this is the media query section */
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
+    .navbar {
 
-.navbar{
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-background-color: black;
-color: white;
-position: sticky;
-top: 0;
+        display: flex;
 
-}
+        justify-content: center;
 
-.navbar img{
-width: 20%;
+        background-color: black;
 
+        color: white;
 
+        position: sticky;
 
- }
+        top: 0;
 
+    }
 
 
-ul {
-width: 70%;
-display: flex;
-flex-direction: column;
-/* justify-content: space-between;
-align-items: center; */
-}
+    .navbar img {
 
-ul>li>a{
-color: white !important;
+        width: 20%;
 
-}
+    }
 
 
-ul>li>div{
-background-color: red;
-padding: 10px;
-border-radius: 10px;
-}
+    ul {
 
+        width: 70%;
 
-.header{
-width: 100%;
-background-color: black;
-padding: 10px;
-}
+        display: flex;
 
-/* this is the card section */
+        flex-direction: column;
 
-.cards-sec h2{
-text-align: center;
-color: white;
-}
-.cards-sec{
-background-color: black;
+    }
 
 
-}
+    ul>li>a {
 
-.card-container{
+        color: white !important;
 
-    display: flex;
-    flex-direction: column;
-/* justify-content: center;
-gap: 10px; */
+    }
 
-}
 
+    ul>li>div {
 
-.card{
-width: 100%;
-background-color: black;
+        background-color: red;
 
-}
+        padding: 10px;
 
-.card img{
-/* height: 300px; */
-object-fit: cover;
+        border-radius: 10px;
 
-}
+    }
 
-.card h5{
-color: white;
-text-align: center;
-}
 
+    .header {
 
-/* this is third section  */
-.third-section{
-display: flex;
-flex-direction: column;
+        width: 100%;
 
+        background-color: black;
 
-}
+        padding: 10px;
 
-.third{
-width: 100%;
-display: flex;
-flex-direction: column;
-/* justify-content: center;
-align-items: center; */
-background-color: rgba(0, 0, 0, 0.9);
-}
+    }
 
-.third img{
-width: 100%;
-object-fit: cover;
 
-}
-.third-right{
-width: 80%;
-color: white;
+    /* this is the card section */
 
+    .cards-sec h2 {
 
-}
+        text-align: center;
 
-.third-right h4{
-color: red;
-font-size: 20px;
-letter-spacing: 5px;
+        color: white;
 
-}
+    }
 
-.third-right button{
-padding: 10px;
-color: white;
-background-color: rgba(0, 0, 0, 0.9);
-border-radius: 20px;
 
-i{
-color: white;
+    .cards-sec {
 
+        background-color: black;
 
-}
+    }
 
 
-}
+    .card-container {
 
+        display: flex;
 
-/* this is the fivth section */
+        flex-direction: column;
 
-.fivth{
-text-align: center;
-background-color: black;
-color: white;
+    }
 
 
-}
+    .card {
 
-.fivth-card{
-width: 100%;
-text-align: center;
+        width: 100%;
 
-}
-.fivth-card h5{
-background-color: red;
-margin: 0px 170px;
+        background-color: black;
 
-}
+    }
 
-.fivth-card img{
-    width: 100%;
-object-fit: cover;
 
+    .card img {
 
-}
+        object-fit: cover;
 
+    }
 
-.uper-section{
-display: flex;
-flex-direction: column;
-/* justify-content: center;
-gap: 20px;
-align-items: center; */
 
-}
+    .card h5 {
 
-.lower-section{
-display: flex;
-flex-direction: column;
-/* justify-content: center;
-gap: 20px;
-align-items: center; */
-}
+        color: white;
 
+        text-align: center;
 
-/* this is the sixth section */
+    }
 
 
-.sixth{
-display: flex;
-flex-direction: column;
-/* justify-content: space-around;
-align-items: center; */
-background-color: rgba(0, 0, 0, 0.9);
-color: white;
-}
+    /* this is third section  */
 
+    .third-section {
 
-.sixth-left{
-width: 90%;
+        display: flex;
 
+        flex-direction: column;
 
-}
+    }
 
-.sixth-left h4{
-color: red;
-letter-spacing: 10px;
 
+    .third {
 
-}
+        width: 100%;
 
-.sixth-right{
-width: 95%;
+        display: flex;
 
+        flex-direction: column;
 
-}
+        background-color: rgba(0, 0, 0, 0.9);
 
-.sixth-right>img{
-width: 100%;
-object-fit: cover;
+    }
 
 
-}
+    .third img {
 
-/* this is the footer section */
+        width: 100%;
 
-.footer{
-display: flex;
-flex-direction: column;
-/* justify-content: space-evenly;
-align-items: flex-start; */
-background-color: rgba(0, 0, 0, 0.9);
-color: white;
-padding-top: 40px;
-padding: 20px;
+        object-fit: cover;
 
-}
+    }
 
-.footer h5{
-font-size: 10px;
 
+    .third-right {
 
-}
+        width: 80%;
 
+        color: white;
 
-.empty{
-width: 100%;
-background-color: black;
-padding: 20px;
+    }
 
-}
 
+    .third-right h4 {
 
+        color: red;
 
+        font-size: 20px;
 
+        letter-spacing: 5px;
 
+    }
 
+
+    .third-right button {
+
+        padding: 10px;
+
+        color: white;
+
+        background-color: rgba(0, 0, 0, 0.9);
+
+        border-radius: 20px;
+
+
+        i {
+
+            color: white;
+
+        }
+
+
+    }
+
+
+    /* this is the fivth section */
+
+    .fivth {
+
+        text-align: center;
+
+        background-color: black;
+
+        color: white;
+
+    }
+
+
+    .fivth-card {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+
+    .fivth-card h5 {
+
+        background-color: red;
+
+        margin: 0px 170px;
+
+    }
+
+
+    .fivth-card img {
+
+        width: 100%;
+
+        object-fit: cover;
+
+    }
+
+
+    .uper-section {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    .lower-section {
+
+        display: flex;
+
+        flex-direction: column;
+
+    }
+
+
+    /* this is the sixth section */
+
+    .sixth {
+
+        display: flex;
+
+        flex-direction: column;
+
+        background-color: rgba(0, 0, 0, 0.9);
+
+        color: white;
+
+    }
+
+
+    .sixth-left {
+
+        width: 90%;
+
+    }
+
+
+    .sixth-left h4 {
+
+        color: red;
+
+        letter-spacing: 10px;
+
+    }
+
+
+    .sixth-right {
+
+        width: 95%;
+
+    }
+
+
+    .sixth-right>img {
+
+        width: 100%;
+
+        object-fit: cover;
+
+    }
+
+
+    /* this is the footer section */
+
+    .footer {
+
+        display: flex;
+
+        flex-direction: column;
+
+        background-color: rgba(0, 0, 0, 0.9);
+
+        color: white;
+
+        padding-top: 40px;
+
+        padding: 20px;
+
+    }
+
+
+    .footer h5 {
+
+        font-size: 10px;
+
+    }
+
+
+    .empty {
+
+        width: 100%;
+
+        background-color: black;
+
+        padding: 20px;
+
+    }
 
 
 }
